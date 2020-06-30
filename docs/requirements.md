@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Course Requirements
-nav_order: 2
+title: Customization
+nav_order: 6
 ---
+
 ## Internship Work Hours & Placement
 
 Students need to complete the minimal number of hours for onsite work OR the completion of an applied research project based on the list below
