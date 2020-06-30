@@ -1,0 +1,566 @@
+{"0": {
+    "doc": "Buttons",
+    "title": "Buttons",
+    "content": " ",
+    "url": "http://localhost:4000/just-the-docs/docs/ui-components/buttons/",
+    "relUrl": "/docs/ui-components/buttons/"
+  },"1": {
+    "doc": "Buttons",
+    "title": "Table of contents",
+    "content": ". | Basic button styles . | Links that look like buttons | Button element | . | Using utilities with buttons . | Button size | Spacing between buttons | . | . ",
+    "url": "http://localhost:4000/just-the-docs/docs/ui-components/buttons/#table-of-contents",
+    "relUrl": "/docs/ui-components/buttons/#table-of-contents"
+  },"2": {
+    "doc": "Buttons",
+    "title": "Basic button styles",
+    "content": "Links that look like buttons . Link button . Link button Link button Link button . Link button . [Link button](http://example.com/){: .btn } [Link button](http://example.com/){: .btn .btn-purple } [Link button](http://example.com/){: .btn .btn-blue } [Link button](http://example.com/){: .btn .btn-green } [Link button](http://example.com/){: .btn .btn-outline } . Button element . GitHub Flavored Markdown does not support the button element, so you’ll have to use inline HTML for this: . Button element &lt;button type=\"button\" name=\"button\" class=\"btn\"&gt;Button element&lt;/button&gt; . ",
+    "url": "http://localhost:4000/just-the-docs/docs/ui-components/buttons/#basic-button-styles",
+    "relUrl": "/docs/ui-components/buttons/#basic-button-styles"
+  },"3": {
+    "doc": "Buttons",
+    "title": "Using utilities with buttons",
+    "content": "Button size . Wrap the button in a container that uses the font-size utility classes to scale buttons: . Big ass button . Tiny ass button . &lt;span class=\"fs-8\"&gt; [Link button](http://example.com/){: .btn } &lt;/span&gt; &lt;span class=\"fs-3\"&gt; [Tiny ass button](http://example.com/){: .btn } &lt;/span&gt; . Spacing between buttons . Use the margin utility classes to add spacing between two buttons in the same block. Button with space Button . Button with more space Button . [Button with space](http://example.com/){: .btn .btn-purple .mr-2 } [Button ](http://example.com/){: .btn .btn-blue } [Button with more space](http://example.com/){: .btn .btn-green .mr-4 } [Button ](http://example.com/){: .btn .btn-blue } . ",
+    "url": "http://localhost:4000/just-the-docs/docs/ui-components/buttons/#using-utilities-with-buttons",
+    "relUrl": "/docs/ui-components/buttons/#using-utilities-with-buttons"
+  },"4": {
+    "doc": "Code",
+    "title": "Code",
+    "content": " ",
+    "url": "http://localhost:4000/just-the-docs/docs/ui-components/code/",
+    "relUrl": "/docs/ui-components/code/"
+  },"5": {
+    "doc": "Code",
+    "title": "Table of contents",
+    "content": ". | Inline code | Syntax highlighted code blocks | Code blocks with rendered examples | . ",
+    "url": "http://localhost:4000/just-the-docs/docs/ui-components/code/#table-of-contents",
+    "relUrl": "/docs/ui-components/code/#table-of-contents"
+  },"6": {
+    "doc": "Code",
+    "title": "Inline code",
+    "content": "Code can be rendered inline by wrapping it in single back ticks. Lorem ipsum dolor sit amet, &lt;inline code snippet&gt; adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+    "url": "http://localhost:4000/just-the-docs/docs/ui-components/code/#inline-code",
+    "relUrl": "/docs/ui-components/code/#inline-code"
+  },"7": {
+    "doc": "Code",
+    "title": "Heading with &lt;inline code snippet&gt; in it.",
+    "content": "Lorem ipsum dolor sit amet, `&lt;inline code snippet&gt;` adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ## Heading with `&lt;inline code snippet&gt;` in it. ",
+    "url": "http://localhost:4000/just-the-docs/docs/ui-components/code/#heading-with-inline-code-snippet-in-it",
+    "relUrl": "/docs/ui-components/code/#heading-with-inline-code-snippet-in-it"
+  },"8": {
+    "doc": "Code",
+    "title": "Syntax highlighted code blocks",
+    "content": "Use Jekyll’s built-in syntax highlighting with Rouge for code blocks by using three backticks, followed by the language name: . // Javascript code with syntax highlighting. var fun = function lang(l) { dateformat.i18n = require('./lang/' + l) return true; } . ```js // Javascript code with syntax highlighting. var fun = function lang(l) { dateformat.i18n = require('./lang/' + l) return true; } ``` . ",
+    "url": "http://localhost:4000/just-the-docs/docs/ui-components/code/#syntax-highlighted-code-blocks",
+    "relUrl": "/docs/ui-components/code/#syntax-highlighted-code-blocks"
+  },"9": {
+    "doc": "Code",
+    "title": "Code blocks with rendered examples",
+    "content": "To demonstrate front end code, sometimes it’s useful to show a rendered example of that code. After including the styles from your project that you’ll need to show the rendering, you can use a &lt;div&gt; with the code-example class, followed by the code block syntax. If you want to render your output with Markdown instead of HTML, use the markdown=\"1\" attribute to tell Jekyll that the code you are rendering will be in Markdown format… This is about to get meta… . Link button . [Link button](http://example.com/){: .btn } . &lt;div class=\"code-example\" markdown=\"1\"&gt; [Link button](http://example.com/){: .btn } &lt;/div&gt; ```markdown [Link button](http://example.com/){: .btn } ``` . ",
+    "url": "http://localhost:4000/just-the-docs/docs/ui-components/code/#code-blocks-with-rendered-examples",
+    "relUrl": "/docs/ui-components/code/#code-blocks-with-rendered-examples"
+  },"10": {
+    "doc": "Color",
+    "title": "Color Utilities",
+    "content": " ",
+    "url": "http://localhost:4000/just-the-docs/docs/utilities/color/#color-utilities",
+    "relUrl": "/docs/utilities/color/#color-utilities"
+  },"11": {
+    "doc": "Color",
+    "title": "Table of contents",
+    "content": ". | Light Greys | Dark Greys | Purples | Blues | Greens | Yellows | Reds | . All the colors used in Just the Docs have been systematized into a series of variables that have been extended to both font color and background color utility classes. ",
+    "url": "http://localhost:4000/just-the-docs/docs/utilities/color/#table-of-contents",
+    "relUrl": "/docs/utilities/color/#table-of-contents"
+  },"12": {
+    "doc": "Color",
+    "title": "Light Greys",
+    "content": "| Color value | Font color utility | Background color utility | . | grey-lt-000 | .text-grey-lt-000 | .bg-grey-lt-000 | . | grey-lt-100 | .text-grey-lt-100 | .bg-grey-lt-100 | . | grey-lt-200 | .text-grey-lt-200 | .bg-grey-lt-200 | . | grey-lt-300 | .text-grey-lt-300 | .bg-grey-lt-300 | . ",
+    "url": "http://localhost:4000/just-the-docs/docs/utilities/color/#light-greys",
+    "relUrl": "/docs/utilities/color/#light-greys"
+  },"13": {
+    "doc": "Color",
+    "title": "Dark Greys",
+    "content": "| Color value | Font color utility | Background color utility | . | grey-dk-000 | .text-grey-dk-000 | .bg-grey-dk-000 | . | grey-dk-100 | .text-grey-dk-100 | .bg-grey-dk-100 | . | grey-dk-200 | .text-grey-dk-200 | .bg-grey-dk-200 | . | grey-dk-250 | .text-grey-dk-250 | .bg-grey-dk-250 | . | grey-dk-300 | .text-grey-dk-300 | .bg-grey-dk-300 | . ",
+    "url": "http://localhost:4000/just-the-docs/docs/utilities/color/#dark-greys",
+    "relUrl": "/docs/utilities/color/#dark-greys"
+  },"14": {
+    "doc": "Color",
+    "title": "Purples",
+    "content": "| Color value | Font color utility | Background color utility | . | purple-000 | .text-purple-000 | .bg-purple-000 | . | purple-100 | .text-purple-100 | .bg-purple-100 | . | purple-200 | .text-purple-200 | .bg-purple-200 | . | purple-300 | .text-purple-300 | .bg-purple-300 | . ",
+    "url": "http://localhost:4000/just-the-docs/docs/utilities/color/#purples",
+    "relUrl": "/docs/utilities/color/#purples"
+  },"15": {
+    "doc": "Color",
+    "title": "Blues",
+    "content": "| Color value | Font color utility | Background color utility | . | blue-000 | .text-blue-000 | .bg-blue-000 | . | blue-100 | .text-blue-100 | .bg-blue-100 | . | blue-200 | .text-blue-200 | .bg-blue-200 | . | blue-300 | .text-blue-300 | .bg-blue-300 | . ",
+    "url": "http://localhost:4000/just-the-docs/docs/utilities/color/#blues",
+    "relUrl": "/docs/utilities/color/#blues"
+  },"16": {
+    "doc": "Color",
+    "title": "Greens",
+    "content": "| Color value | Font color utility | Background color utility | . | green-000 | .text-green-000 | .bg-green-000 | . | green-100 | .text-green-100 | .bg-green-100 | . | green-200 | .text-green-200 | .bg-green-200 | . | green-300 | .text-green-300 | .bg-green-300 | . ",
+    "url": "http://localhost:4000/just-the-docs/docs/utilities/color/#greens",
+    "relUrl": "/docs/utilities/color/#greens"
+  },"17": {
+    "doc": "Color",
+    "title": "Yellows",
+    "content": "| Color value | Font color utility | Background color utility | . | yellow-000 | .text-yellow-000 | .bg-yellow-000 | . | yellow-100 | .text-yellow-100 | .bg-yellow-100 | . | yellow-200 | .text-yellow-200 | .bg-yellow-200 | . | yellow-300 | .text-yellow-300 | .bg-yellow-300 | . ",
+    "url": "http://localhost:4000/just-the-docs/docs/utilities/color/#yellows",
+    "relUrl": "/docs/utilities/color/#yellows"
+  },"18": {
+    "doc": "Color",
+    "title": "Reds",
+    "content": "| Color value | Font color utility | Background color utility | . | red-000 | .text-red-000 | .bg-red-000 | . | red-100 | .text-red-100 | .bg-red-100 | . | red-200 | .text-red-200 | .bg-red-200 | . | red-300 | .text-red-300 | .bg-red-300 | . ",
+    "url": "http://localhost:4000/just-the-docs/docs/utilities/color/#reds",
+    "relUrl": "/docs/utilities/color/#reds"
+  },"19": {
+    "doc": "Color",
+    "title": "Color",
+    "content": " ",
+    "url": "http://localhost:4000/just-the-docs/docs/utilities/color/",
+    "relUrl": "/docs/utilities/color/"
+  },"20": {
+    "doc": "Course Requirements",
+    "title": "Internship Work Hours &amp; Placement",
+    "content": "Students need to complete the minimal number of hours for onsite work OR the completion of an applied research project based on the list below . | 40 hours for 1 credit (upto 3 credits). | 150 work hours for 4 credits. | . ",
+    "url": "http://localhost:4000/just-the-docs/docs/course_requirements/#internship-work-hours--placement",
+    "relUrl": "/docs/course_requirements/#internship-work-hours--placement"
+  },"21": {
+    "doc": "Course Requirements",
+    "title": "Students have two placement options:",
+    "content": "Internship Work Option Students will secure an internship experience to complete the required minimum hours of onsite work hours. You should: . | Contact faculty advisor to review placement options and procedures. | Interview with internship sponsors to locate an appropriate experience. | After an internship offer is made and accepted, meet with the workplace supervisor to: | . | Determine your duties and responsibilities at the internship site. | Outline expectations you have from the internship experience. | . Applied Research Option If you are employed in the field, instead of internship work hours you are required to conduct applied research in IT. The project should meet specific IT needs identified by the organization where you work or another sponsoring organization. This requires that you: . | Propose project ideas, e.g., research projects. The scope of the project may or may not directly relate to the current job assignment, depending on your time commitment, availability of your supervisor or company policy. | Meet with your potential workplace supervisor to discuss project’s goal and objectives, and ask for their approval to supervise your project; | Meet with the internship faculty advisor to finalize project’s scope, content, development plan, and expected outcomes; | Complete the minimum number of work hours on the project based on the number of credits you register for the course. Seek feedback from your supervisor during the project. | . The academic work hours for the applied research project may not involve one’s regular work hours on site or be compensated unless the company or site supervisor agrees to do so. You need to submit a research project proposal. The proposal is limited to no more than 2 pages, and it should identify the content and scope of the project, a development plan with intermediate milestones, and expected outcomes. ",
+    "url": "http://localhost:4000/just-the-docs/docs/course_requirements/#students-have-two-placement-options",
+    "relUrl": "/docs/course_requirements/#students-have-two-placement-options"
+  },"22": {
+    "doc": "Course Requirements",
+    "title": "Approval Process for Both Options",
+    "content": "Students are required to: . | Create and submit a new Experience in Handshake website. | Login into Handshake (navigate to Career Center, Experiences, Request New Experience) | Complete the information required under your academic program and hit submit. You will need to know the contact information for your internship site and site supervisor. You can often get this information off of your offer letter. | Requests to approve this internship will go to your internship site supervisor and your faculty. Once both of these people approve your experience you are all set until final evaluations are needed | . Best Practices are: . | Monitor the approval process on Handshake until it is fully approved. You can learn exactly where the process is by logging into Handshake. If someone makes a request for you to change something, you will want to respond promptly. | Let your internship supervisors know they will be getting a request for approval from the Handshake platform. All the supervisor has to do is review and click yes or no for approval. The UNHM Career and Professional Success (CaPS) will connect the employer later on for evaluation purposes. | . ",
+    "url": "http://localhost:4000/just-the-docs/docs/course_requirements/#approval-process-for-both-options",
+    "relUrl": "/docs/course_requirements/#approval-process-for-both-options"
+  },"23": {
+    "doc": "Course Requirements",
+    "title": "Course Requirements",
+    "content": " ",
+    "url": "http://localhost:4000/just-the-docs/docs/course_requirements/",
+    "relUrl": "/docs/course_requirements/"
+  },"24": {
+    "doc": "Customization",
+    "title": "Customization",
+    "content": " ",
+    "url": "http://localhost:4000/just-the-docs/docs/customization/",
+    "relUrl": "/docs/customization/"
+  },"25": {
+    "doc": "Customization",
+    "title": "Table of contents",
+    "content": ". | Color schemes | Custom schemes . | Define a custom scheme | Use a custom scheme | Switchable custom scheme | . | Override and completely custom styles | . ",
+    "url": "http://localhost:4000/just-the-docs/docs/customization/#table-of-contents",
+    "relUrl": "/docs/customization/#table-of-contents"
+  },"26": {
+    "doc": "Customization",
+    "title": "Color schemes",
+    "content": "New . Just the Docs supports two color schemes: light (default), and dark. To enable a color scheme, set the color_scheme parameter in your site’s _config.yml file: . Example . # Color scheme supports \"light\" (default) and \"dark\" color_scheme: dark . Preview dark color scheme . ",
+    "url": "http://localhost:4000/just-the-docs/docs/customization/#color-schemes",
+    "relUrl": "/docs/customization/#color-schemes"
+  },"27": {
+    "doc": "Customization",
+    "title": "Custom schemes",
+    "content": "Define a custom scheme . You can add custom schemes. If you want to add a scheme named foo (can be any name) just add a file _sass/color_schemes/foo.scss (replace foo by your scheme name) where you override theme variables to change colors, fonts, spacing, etc. Available variables are listed in the _variables.scss file. For example, to change the link color from the purple default to blue, include the following inside your scheme file: . Example . $link-color: $blue-000; . Note: Editing the variables directly in _sass/support/variables.scss is not recommended and can cause other dependencies to fail. Please use scheme files. Use a custom scheme . To use the custom color scheme, only set the color_scheme parameter in your site’s _config.yml file: . color_scheme: foo . Switchable custom scheme . If you want to be able to change the scheme dynamically, for example via javascript, just add a file assets/css/just-the-docs-foo.scss (replace foo by your scheme name) with the following content:` . --- --- {% include css/just-the-docs.scss.liquid color_scheme=\"foo\" %} . This allows you to switch the scheme via the following javascript. jtd.setTheme('foo'); . ",
+    "url": "http://localhost:4000/just-the-docs/docs/customization/#custom-schemes",
+    "relUrl": "/docs/customization/#custom-schemes"
+  },"28": {
+    "doc": "Customization",
+    "title": "Override and completely custom styles",
+    "content": "For styles that aren’t defined as variables, you may want to modify specific CSS classes. Additionally, you may want to add completely custom CSS specific to your content. To do this, put your styles in the file _sass/custom/custom.scss. This will allow for all overrides to be kept in a single file, and for any upstream changes to still be applied. For example, if you’d like to add your own styles for printing a page, you could add the following styles. Example . // Print-only styles. @media print { .side-bar, .page-header { display: none; } .main-content { max-width: auto; margin: 1em;} } . ",
+    "url": "http://localhost:4000/just-the-docs/docs/customization/#override-and-completely-custom-styles",
+    "relUrl": "/docs/customization/#override-and-completely-custom-styles"
+  },"29": {
+    "doc": "Current Positions",
+    "title": "Current Positions",
+    "content": " ",
+    "url": "http://localhost:4000/just-the-docs/docs/existing_internal/",
+    "relUrl": "/docs/existing_internal/"
+  },"30": {
+    "doc": "Experience Highlights",
+    "title": "Experience Highlights",
+    "content": "Kevin Booth Web Developer GYK Antler . Melissa Mullen Developer URSA . ",
+    "url": "http://localhost:4000/just-the-docs/docs/experience/",
+    "relUrl": "/docs/experience/"
+  },"31": {
+    "doc": "Markdown kitchen sink",
+    "title": "Header 1",
+    "content": "This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. ",
+    "url": "http://localhost:4000/just-the-docs/docs/index-test/#header-1",
+    "relUrl": "/docs/index-test/#header-1"
+  },"32": {
+    "doc": "Markdown kitchen sink",
+    "title": "Header 2",
+    "content": "This is a blockquote following a header. When something is important enough, you do it even if the odds are not in your favor. Header 3 . // Javascript code with syntax highlighting. var fun = function lang(l) { dateformat.i18n = require('./lang/' + l) return true; } . # Ruby code with syntax highlighting GitHubPages::Dependencies.gems.each do |gem, version| s.add_dependency(gem, \"= #{version}\") end . Header 4 . | This is an unordered list following a header. | This is an unordered list following a header. | This is an unordered list following a header. | . Header 5 . | This is an ordered list following a header. | This is an ordered list following a header. | This is an ordered list following a header. | . Header 6 . | head1 | head two | three | . | ok | good swedish fish | nice | . | out of stock | good and plenty | nice | . | ok | good oreos | hmm | . | ok | good zoute drop | yumm | . There’s a horizontal rule below this. Here is an unordered list: . | Item foo | Item bar | Item baz | Item zip | . And an ordered list: . | Item one | Item two | Item three | Item four | . And a nested list: . | level 1 item . | level 2 item | level 2 item . | level 3 item | level 3 item | . | . | level 1 item . | level 2 item | level 2 item | level 2 item | . | level 1 item . | level 2 item | level 2 item | . | level 1 item | . Nesting an ol in ul in an ol . | level 1 item (ul) . | level 2 item (ol) | level 2 item (ol) . | level 3 item (ul) | level 3 item (ul) | . | . | level 1 item (ul) . | level 2 item (ol) | level 2 item (ol) . | level 3 item (ul) | level 3 item (ul) | . | level 4 item (ol) | level 4 item (ol) . | level 3 item (ul) | level 3 item (ul) | . | . | level 1 item (ul) | . And a task list . | Hello, this is a TODO item | Hello, this is another TODO item | Goodbye, this item is done | . Small image . Large image . Definition lists can be used with HTML syntax. Name Godzilla Born 1952 Birthplace Japan Color Green Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this. The final element. ",
+    "url": "http://localhost:4000/just-the-docs/docs/index-test/#header-2",
+    "relUrl": "/docs/index-test/#header-2"
+  },"33": {
+    "doc": "Markdown kitchen sink",
+    "title": "Markdown kitchen sink",
+    "content": "Text can be bold, italic, or strikethrough. Link to another page. There should be whitespace between paragraphs. There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project. ",
+    "url": "http://localhost:4000/just-the-docs/docs/index-test/",
+    "relUrl": "/docs/index-test/"
+  },"34": {
+    "doc": "Home",
+    "title": "Focus on writing good documentation",
+    "content": "Just the Docs gives your documentation a jumpstart with a responsive Jekyll theme that is easily customizable and hosted on GitHub Pages. Get started now View it on GitHub . ",
+    "url": "http://localhost:4000/just-the-docs/#focus-on-writing-good-documentation",
+    "relUrl": "/#focus-on-writing-good-documentation"
+  },"35": {
+    "doc": "Home",
+    "title": "Getting started",
+    "content": "Dependencies . Just the Docs is built for Jekyll, a static site generator. View the quick start guide for more information. Just the Docs requires no special plugins and can run on GitHub Pages’ standard Jekyll compiler. The Jekyll SEO Tag plugin is included by default (no need to run any special installation) to inject SEO and open graph metadata on docs pages. For information on how to configure SEO and open graph metadata visit the Jekyll SEO Tag usage guide. Quick start: Use as a GitHub Pages remote theme . | Add Just the Docs to your Jekyll site’s _config.yml as a remote theme remote_theme: pmarsceill/just-the-docs . You must have GitHub Pages enabled on your repo, one or more Markdown files, and a _config.yml file. See an example repository . | . Local installation: Use the gem-based theme . | Install the Ruby Gem $ gem install just-the-docs . # .. or add it to your your Jekyll site’s Gemfile gem \"just-the-docs\" . | Add Just the Docs to your Jekyll site’s _config.yml theme: \"just-the-docs\" . | Optional: Initialize search data (creates search-data.json) $ bundle exec just-the-docs rake search:init . | Run you local Jekyll server $ jekyll serve . # .. or if you're using a Gemfile (bundler) $ bundle exec jekyll serve . | Point your web browser to http://localhost:4000 | . If you’re hosting your site on GitHub Pages, set up GitHub Pages and Jekyll locally so that you can more easily work in your development environment. Configure Just the Docs . | See configuration options | . ",
+    "url": "http://localhost:4000/just-the-docs/#getting-started",
+    "relUrl": "/#getting-started"
+  },"36": {
+    "doc": "Home",
+    "title": "About the project",
+    "content": "Just the Docs is © 2017-2020 by Patrick Marsceill. License . Just the Docs is distributed by an MIT license. Contributing . When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change. Read more about becoming a contributor in our GitHub repo. Thank you to the contributors of Just the Docs! . Code of Conduct . Just the Docs is committed to fostering a welcoming community. View our Code of Conduct on our GitHub repository. ",
+    "url": "http://localhost:4000/just-the-docs/#about-the-project",
+    "relUrl": "/#about-the-project"
+  },"37": {
+    "doc": "Home",
+    "title": "Home",
+    "content": " ",
+    "url": "http://localhost:4000/just-the-docs/",
+    "relUrl": "/"
+  },"38": {
+    "doc": "Internship Resources",
+    "title": "UNH Career &amp; Professional Success (CaPs)",
+    "content": "Internship Coordinator . Maggie Wells M.Wells@unh.edu . ",
+    "url": "http://localhost:4000/just-the-docs/docs/internship_resources/#unh-career--professional-success-caps",
+    "relUrl": "/docs/internship_resources/#unh-career--professional-success-caps"
+  },"39": {
+    "doc": "Internship Resources",
+    "title": "International Students (OISS)",
+    "content": "Immigration Advisor . Christine Rousseau Christine.Rousseau@unh.edu . ",
+    "url": "http://localhost:4000/just-the-docs/docs/internship_resources/#international-students-oiss",
+    "relUrl": "/docs/internship_resources/#international-students-oiss"
+  },"40": {
+    "doc": "Internship Resources",
+    "title": "Course Related Resources",
+    "content": "Weekly Log Format For each week that you have worked, you need to submit a separate weekly log file that contains the following information: . | A title section that includes the following information: Student’s Name: WEEKLY Log #: (counting from the first log entry) From: ??? To: ??? (specify the dates that this weekly report covers) Today’s Date: ??? Name of Agency: e.g. Manchester School District Number of Hours Worked This Week: e.g. 15 Cumulative Hours to Date: e.g. 70 | The internship activities during the week which include: . | Activities you have completed. | Activities in process. | Activities to be started next week. | . | Reflections: This includes your observation of the work performed during the week, as well as your reflections of how and when your current academic training and preparation, either directly or indirectly, to perform the work assigned. | . Please submit each log through the same weekly log assignment submission link. The file must be saved in PDF format. Final Report Requirements The report must include the following items: . | A Title Page. First page should display student’s full name, internship start and finish dates, company/institution name or the title of research project. | A Brief Executive Summary of the Internship. A summary of the company/institution and a short account of the major activities carried out during the internship period. This section should answer the following questions: What is the full title, full mailing address and relevant web links of the company/institution? Specify the products and services produced and offered by the company/institution. For research projects, provide the background of your research topics. (Limit to 1-1.5 pages) | Details of Internship Activities. This is the main body of your report. Questions to be answered in this section include the following. | What CS/IT related tasks did you perform? | What kind of technologies and tools did you use? | What is the relationship of the work to your major studies? | What is the comparison between theory (things you have learned in the classroom) and practice (things you did or observed at the internship). | . Use full sentences, instead of bullet points, to describe your work. Focus on what YOU have worked on or accomplished, rather than the technology itself. Do not include the weekly log of the internship activities, but use the log records to build your writing in a structured and organized way. You need to have minimal 4 pages (not including figures and tables) for this section. | Self-assessment of the Internship Experience. In this section you should answer the following questions: . | What did you learn from your experience? | What were the benefits to you? | How do you think the internship activities that you carried out are correlated with your classroom knowledge? | How do you think the internship will influence your future career plans? Reflection on the internship experiences | Describe what was learned and how it will be apply to your professional career goals | Address whether the profession you learned about during this internship is of interest (why or why not). Identify professions that may be of interest as a result of this experience, and identify actions you will need to take to effectively pursue your chosen career. | Identify additional skills that will need to be developed to ensure career readiness. This might include learning a new technology, developing a broader network, additional coursework, etc. | What advice would you have for a fellow student and/or faculty member with regard to your experience? | How do you think the internship class activities such as class meetings, progress presentations and guest speakers have helped to improve your skills, knowledge or professional network? | . Use full sentences, instead of bullet points, in your writing. You need to have minimal 3 pages (not including figures and tables) for this section. Grading criteria: 60% content; 20% grammar and mechanics; 20% format. | Conclusions. This section should include a summary of key conclusions derived from the internship experience, and general observations about the sector in which your internship company/institution operates. Include your assessment of classroom meetings, progress presentation and invited guest speakers. (Limit to 1 page) | Reference. | Appendices and supplementary material (charts, graphs, pictures, etc.) This section is optional and content of high quality will be considered for up to 10% bonus. | . The internship report should be between 9-12 pages (not including the title page, figures and tables), size 12 in Times New Roman font and with single-spaced lines. The report should be saved in PDF format for submission. Guidelines for Internship Progress Presentation The presentation should be kept between 10-15 minutes. The content of the presentation might include, but not restricted to the following: . | What is the scope of your internship placement or research project work? | How did you find the internship? How did you decided on the research project? | What are the responsibilities/activities of your internship? What is the goal of your research project? | What has been completed and what is yet to be started? | What is your reflection of the work so far? What difficulties you have encountered? | What are the helpful information and valued lesson you'd like to share with the class? | . You should prepare 5-8 slides to aid your presentation. Please keep the number of slides simple and minimum. I'd like to see you present rather than reading off the slides. You must post your presentation slides at least 24 hours before your scheduled presentation in the MyCourses Discussion Board. Your slides will be shared among students in advance so they will be prepared to ask questions and be engaged in the discussion during the meeting. After the meeting, each student needs to provide feedback to each of presentation on class . ",
+    "url": "http://localhost:4000/just-the-docs/docs/internship_resources/#course-related-resources",
+    "relUrl": "/docs/internship_resources/#course-related-resources"
+  },"41": {
+    "doc": "Internship Resources",
+    "title": "Internship Resources",
+    "content": " ",
+    "url": "http://localhost:4000/just-the-docs/docs/internship_resources/",
+    "relUrl": "/docs/internship_resources/"
+  },"42": {
+    "doc": "Kevin Booth",
+    "title": "Kevin Booth",
+    "content": "&emsp; &emsp; Kevin Booth works as a web developer at GYK Antler, a marketing agency which provides branding, video production, web development services, and more. GYK Antler is a mid-sized company with three locations, including one in Manchester. Kevin's job is to work on web maintenance tasks on client sites. He is a Full Stack Web Developer whose job requires knowledge of every part of the websites he creates. Since Kevin had already been though the internship process with GYK Antler and was currently working full-time with them, he completed the applied research option for this course. &emsp; &emsp; For three years before his applied research project, GYK Antler had been supporting a small start-up called Explorics which pulls data from dozens of third-party data sources like Facebook, Instagram, Twitter, and so on. This data is unified into one place, and with the data Explorics can create easily digestible charts and tables for the customer. The relationship between these two companies was very good, and they came to the decision to integrate Explorics data presentation software exclusively with GYK Antler. This is where Kevin's applied research project comes in. Kevin's task was to advance his knowledge of the Explorics platform, as well as to help adapt Explorics software for his companies specific needs. &emsp; &emsp; The first thing Kevin needed to do was to familiarize himself with the code base he would be working on. Him and his advisors agreed that the best way to do this would be to identify an area of the program which needed improvement, and to have him work on it. The area they decided to work on was the front-end architecture in their web application, which was a data visualization platform that the company had been licensing for a large fee, which was driving up the cost of the program. Kevin's task would be to learn how the platform worked, as well as how it interacted with the rest of Exploric's software so that he could eventually completely replace it with his own front-end architecture. &emsp; &emsp; The first two weeks of the project were spent with Kevin trying to wrap his head around the unfamiliar code by dissecting it, getting a local environment up on his PC, and attending knowledge transfer meetings with the lead software engineer. After this, Kevin met with his supervisor to find a good starting point, which they determined would be developing sub-dashboards. Much of the challenges that Kevin faced were about figuring out what tools he would be utilizing to complete his task, such as which front-end JavaScript framework, charting library, and table library would be the best fit for the project. After implementing these tools, Kevin worked on many other tasks such as validating API security, writing code to make API requests, implementing elements such as pie charts and tables, and much more. By the time the internship class had completed, Kevin had finished the Web sub-dashboard and presented it to the Explorics CEO. Kevin would continue to work on this project after the internship class was over. &emsp; &emsp; Due to the amount of freedom Kevin had over the entire project, he ended up learning a lot about self-discipline and project management. He had to set his own personal due dates, which he did not always meet, but which helped keep him on track the entire way through the project. Though he had advisors who assisted him throughout the project, he mostly had to take responsibility into his own hand when it came to setting up meetings and doing research. Even though it was difficult and daunting to go at such a large project mostly on his own, it was greatly beneficial to him as it increased his confidence and taught him a lot about decision making. This also made his work more satisfying, as he knows that something he built by himself will be useful for dozens of other businesses. ",
+    "url": "http://localhost:4000/just-the-docs/docs/experience/kevin_booth/",
+    "relUrl": "/docs/experience/kevin_booth/"
+  },"43": {
+    "doc": "Labels",
+    "title": "Labels",
+    "content": "Use labels as a way to add an additional mark to a section of your docs. Labels come in a few colors. By default, labels will be blue. Default label . Blue label . Stable . New release . Coming soon . Deprecated . Default label {: .label } Blue label {: .label .label-blue } Stable {: .label .label-green } New release {: .label .label-purple } Coming soon {: .label .label-yellow } Deprecated {: .label .label-red } . ",
+    "url": "http://localhost:4000/just-the-docs/docs/ui-components/labels/",
+    "relUrl": "/docs/ui-components/labels/"
+  },"44": {
+    "doc": "Layout",
+    "title": "Layout Utilities",
+    "content": " ",
+    "url": "http://localhost:4000/just-the-docs/docs/utilities/layout/#layout-utilities",
+    "relUrl": "/docs/utilities/layout/#layout-utilities"
+  },"45": {
+    "doc": "Layout",
+    "title": "Table of contents",
+    "content": ". | Spacing | Horizontal Alignment | Vertical Alignment | Display | . ",
+    "url": "http://localhost:4000/just-the-docs/docs/utilities/layout/#table-of-contents",
+    "relUrl": "/docs/utilities/layout/#table-of-contents"
+  },"46": {
+    "doc": "Layout",
+    "title": "Spacing",
+    "content": "These spacers are available to use for margins and padding with responsive utility classes. Combine these prefixes with a screen size and spacing scale to use them responsively. | Classname prefix | What it does | . | .m- | margin | . | .mx- | margin-left, margin-right | . | .my- | margin top, margin bottom | . | .mt- | margin-top | . | .mr- | margin-right | . | .mb- | margin-bottom | . | .ml- | margin-left | . | Classname prefix | What it does | . | .p- | padding | . | .px- | padding-left, padding-right | . | .py- | padding top, padding bottom | . | .pt- | padding-top | . | .pr- | padding-right | . | .pb- | padding-bottom | . | .pl- | padding-left | . Spacing values are based on a 1rem = 16px spacing scale, broken down into these units: . | Spacer/suffix | Size in rems | Rem converted to px | . | 1 | 0.25rem | 4px | . | 2 | 0.5rem | 8px | . | 3 | 0.75rem | 12px | . | 4 | 1rem | 16px | . | 5 | 1.5rem | 24px | . | 6 | 2rem | 32px | . | 7 | 2.5rem | 40px | . | 8 | 3rem | 48px | . | auto | auto | auto | . Use mx-auto to horizontally center elements. Examples . In Markdown, use the {: } wrapper to apply custom classes: . This paragraph will have a margin bottom of 1rem/16px at large screens. {: .mb-lg-4 } This paragraph will have 2rem/32px of padding on the right and left at all screen sizes. {: .px-6 } . ",
+    "url": "http://localhost:4000/just-the-docs/docs/utilities/layout/#spacing",
+    "relUrl": "/docs/utilities/layout/#spacing"
+  },"47": {
+    "doc": "Layout",
+    "title": "Horizontal Alignment",
+    "content": "| Classname | What it does | . | .float-left | float: left | . | .float-right | float: right | . | .flex-justify-start | justify-content: flex-start | . | .flex-justify-end | justify-content: flex-end | . | .flex-justify-between | justify-content: space-between | . | .flex-justify-around | justify-content: space-around | . Note: any of the flex- classes must be used on a parent element that has d-flex applied to it. ",
+    "url": "http://localhost:4000/just-the-docs/docs/utilities/layout/#horizontal-alignment",
+    "relUrl": "/docs/utilities/layout/#horizontal-alignment"
+  },"48": {
+    "doc": "Layout",
+    "title": "Vertical Alignment",
+    "content": "| Classname | What it does | . | .v-align-baseline | vertical-align: baseline | . | .v-align-bottom | vertical-align: bottom | . | .v-align-middle | vertical-align: middle | . | .v-align-text-bottom | vertical-align: text-bottom | . | .v-align-text-top | vertical-align: text-top | . | .v-align-top | vertical-align: top | . ",
+    "url": "http://localhost:4000/just-the-docs/docs/utilities/layout/#vertical-alignment",
+    "relUrl": "/docs/utilities/layout/#vertical-alignment"
+  },"49": {
+    "doc": "Layout",
+    "title": "Display",
+    "content": "Display classes aid in adapting the layout of the elements on a page: . | Class |   | . | .d-block | display: block | . | .d-flex | display: flex | . | .d-inline | display: inline | . | .d-inline-block | display: inline-block | . | .d-none | display: none | . Use these classes in conjunction with the responsive modifiers. Examples . In Markdown, use the {: } wrapper to apply custom classes: . This button will be hidden until medium screen sizes: [ A button ](#url) {: .d-none .d-md-inline-block } These headings will be `inline-block`: ### heading 3 {: .d-inline-block } ### heading 3 {: .d-inline-block } . ",
+    "url": "http://localhost:4000/just-the-docs/docs/utilities/layout/#display",
+    "relUrl": "/docs/utilities/layout/#display"
+  },"50": {
+    "doc": "Layout",
+    "title": "Layout",
+    "content": " ",
+    "url": "http://localhost:4000/just-the-docs/docs/utilities/layout/",
+    "relUrl": "/docs/utilities/layout/"
+  },"51": {
+    "doc": "Lists",
+    "title": "Lists",
+    "content": " ",
+    "url": "http://localhost:4000/just-the-docs/docs/ui-components/lists/",
+    "relUrl": "/docs/ui-components/lists/"
+  },"52": {
+    "doc": "Lists",
+    "title": "Table of contents",
+    "content": ". | Unordered list | Ordered list | Task list | Definition list | . Most lists can be rendered with pure Markdown. ",
+    "url": "http://localhost:4000/just-the-docs/docs/ui-components/lists/#table-of-contents",
+    "relUrl": "/docs/ui-components/lists/#table-of-contents"
+  },"53": {
+    "doc": "Lists",
+    "title": "Unordered list",
+    "content": ". | Item 1 | Item 2 | Item 3 | . or . | Item 1 | Item 2 | Item 3 | . - Item 1 - Item 2 - Item 3 _or_ * Item 1 * Item 2 * Item 3 . ",
+    "url": "http://localhost:4000/just-the-docs/docs/ui-components/lists/#unordered-list",
+    "relUrl": "/docs/ui-components/lists/#unordered-list"
+  },"54": {
+    "doc": "Lists",
+    "title": "Ordered list",
+    "content": ". | Item 1 | Item 2 | Item 3 | . 1. Item 1 1. Item 2 1. Item 3 . ",
+    "url": "http://localhost:4000/just-the-docs/docs/ui-components/lists/#ordered-list",
+    "relUrl": "/docs/ui-components/lists/#ordered-list"
+  },"55": {
+    "doc": "Lists",
+    "title": "Task list",
+    "content": ". | hello, this is a todo item | hello, this is another todo item | goodbye, this item is done | . - [ ] hello, this is a todo item - [ ] hello, this is another todo item - [x] goodbye, this item is done . ",
+    "url": "http://localhost:4000/just-the-docs/docs/ui-components/lists/#task-list",
+    "relUrl": "/docs/ui-components/lists/#task-list"
+  },"56": {
+    "doc": "Lists",
+    "title": "Definition list",
+    "content": "Definition lists require HTML syntax and aren’t supported with the GitHub Flavored Markdown compiler. Name Godzilla Born 1952 Birthplace Japan Color Green &lt;dl&gt; &lt;dt&gt;Name&lt;/dt&gt; &lt;dd&gt;Godzilla&lt;/dd&gt; &lt;dt&gt;Born&lt;/dt&gt; &lt;dd&gt;1952&lt;/dd&gt; &lt;dt&gt;Birthplace&lt;/dt&gt; &lt;dd&gt;Japan&lt;/dd&gt; &lt;dt&gt;Color&lt;/dt&gt; &lt;dd&gt;Green&lt;/dd&gt; &lt;/dl&gt; . ",
+    "url": "http://localhost:4000/just-the-docs/docs/ui-components/lists/#definition-list",
+    "relUrl": "/docs/ui-components/lists/#definition-list"
+  },"57": {
+    "doc": "Mellisa",
+    "title": "Mellisa Mullen",
+    "content": "Melissa worked for a small start-up in Manchester called URSA (Unmanned Robotics Systems Analysis), a company which creates risk management software for unmanned systems such as unmanned aerial vehicles (UAVs), drones and counter-unmanned aircraft systems (CUAS). This software turns telemetry data into a more easily readable form for operators, which allows them to use their systems with reduced risk. Melissa’s onboarding process and training was focused on analyzing a specific unmanned system flight and determining why this system crashed. After training, she spent two months working on a “classifier”, a program which determines if a certain behavior has occurred, or a specific criterion has been met. The specific classifier which Melissa worked on determined whether or not an unmanned system was traveling in a straight line, and for how long. Later on in the internship, Melissa worked on two more classifiers, one for FAA compliance and one for system forensics. When she was tasked with creating a classifier, the first phase of development was always brainstorming ideas for how to complete this task. During this phase of development, she would meet with her supervisor, who would help her understand what the end product might look like, using tools like whiteboard sketches and Q&amp;A discussions. The next step was to find potentially relevant data sets. For example, for the straight line classifier, Melissa took data from flights she knew flew long straight line paths, as well as other flights which flew minimal straight lines, so in the future she could determine whether or not her classifier was giving accurate results. The next part of the process was building the first version of the classifier, a slow process involving lots of research, debugging, and meetings with supervisors. After the code was ready, it would be submitted to a supervisor who would review it and ask for changes. Typically, Melissa would need to submit a classifier three or four times before the supervisor was happy with the code. Melissa’s work environment was very locked down and secure. Because of her companies partnerships with the U.S. Air Force as well as the Department of Defense, she had to attend security workshops, had to use two factor authentication to log into her work computer, and did not have access to all the companies classifiers until late into the internship. Her company had daily staff meetings where she had to discuss her progress for the day, as well as biweekly check-in meetings with the director of engineering, monthly all-hands-on-deck staff meetings, and a few workshops. Melissa is an Analytics and Data Science major, and she says that this internship was a great experience which taught her about the roles and responsibilities of a data scientist. She was very grateful for the oppurtunity to work in such a professional environment. She also enjoyed the smaller nature of the company, which at the time had only about ten employees. This meant that if she had questions about a piece of code, she could very easily find and ask the person who wrote it to help her understand. She was surprised but grateful to find out that despite the high security measures and sensitivity of data, her company had a very lenient corporate culture, which allowed for more casual dress, casual conversation, flexible work hours which allow you to clock in and out whenever you want (as long as you work enough hours), the ability to work from home, and weekly staff gatherings at a local bar. This helped reduce the stress of the internship for her greatly. The internship helped her become much more confident in her programming skills, as well as confident she was in the right field. ",
+    "url": "http://localhost:4000/just-the-docs/docs/experience/mellisa_mullen/#mellisa-mullen",
+    "relUrl": "/docs/experience/mellisa_mullen/#mellisa-mullen"
+  },"58": {
+    "doc": "Mellisa",
+    "title": "Mellisa",
+    "content": " ",
+    "url": "http://localhost:4000/just-the-docs/docs/experience/mellisa_mullen/",
+    "relUrl": "/docs/experience/mellisa_mullen/"
+  },"59": {
+    "doc": "Navigation Structure",
+    "title": "Navigation Structure",
+    "content": " ",
+    "url": "http://localhost:4000/just-the-docs/docs/navigation-structure/",
+    "relUrl": "/docs/navigation-structure/"
+  },"60": {
+    "doc": "Navigation Structure",
+    "title": "Table of contents",
+    "content": ". | Main navigation | Ordering pages | Excluding pages | Pages with children . | Child pages | Auto-generating Table of Contents | Children with children | . | Auxiliary Links | In-page navigation with Table of Contents | . ",
+    "url": "http://localhost:4000/just-the-docs/docs/navigation-structure/#table-of-contents",
+    "relUrl": "/docs/navigation-structure/#table-of-contents"
+  },"61": {
+    "doc": "Navigation Structure",
+    "title": "Main navigation",
+    "content": "The main navigation for your Just the Docs site is on the left side of the page at large screens and on the top (behind a tap) on small screens. The main navigation can be structured to accommodate a multi-level menu system (pages with children and grandchildren). By default, all pages will appear as top level pages in the main nav unless a parent page is defined (see Pages with Children). ",
+    "url": "http://localhost:4000/just-the-docs/docs/navigation-structure/#main-navigation",
+    "relUrl": "/docs/navigation-structure/#main-navigation"
+  },"62": {
+    "doc": "Navigation Structure",
+    "title": "Ordering pages",
+    "content": "To specify a page order, use the nav_order parameter in your pages’ YAML front matter. Example . --- layout: default title: Customization nav_order: 4 --- . The specified nav_order parameters on a site should be all integers or all strings. Pages without a nav_order parameter are ordered alphabetically by their title, and appear after the explicitly-ordered pages at each level. By default, all Capital letters are sorted before all lowercase letters; adding nav_sort: case_insensitive in the configuration file ignores case when sorting strings (but also sorts numbers lexicographically: 10 comes before 1). ",
+    "url": "http://localhost:4000/just-the-docs/docs/navigation-structure/#ordering-pages",
+    "relUrl": "/docs/navigation-structure/#ordering-pages"
+  },"63": {
+    "doc": "Navigation Structure",
+    "title": "Excluding pages",
+    "content": "For specific pages that you do not wish to include in the main navigation, e.g. a 404 page or a landing page, use the nav_exclude: true parameter in the YAML front matter for that page. Example . --- layout: default title: 404 nav_exclude: true --- . ",
+    "url": "http://localhost:4000/just-the-docs/docs/navigation-structure/#excluding-pages",
+    "relUrl": "/docs/navigation-structure/#excluding-pages"
+  },"64": {
+    "doc": "Navigation Structure",
+    "title": "Pages with children",
+    "content": "Sometimes you will want to create a page with many children (a section). First, it is recommended that you keep pages that are related in a directory together… For example, in these docs, we keep all of the written documentation in the ./docs directory and each of the sections in subdirectories like ./docs/ui-components and ./docs/utilities. This gives us an organization like: . +-- .. |-- (Jekyll files) |-- docs |-- ui-components | |-- index.md (parent page) | |-- buttons.md | |-- code.md | |-- labels.md | |-- tables.md | +-- typography.md | |-- utilities | |-- index.md (parent page) | |-- color.md | |-- layout.md | |-- responsive-modifiers.md | +-- typography.md | |-- (other md files, pages with no children) | +-- .. |-- (Jekyll files) +-- .. On the parent pages, add this YAML front matter parameter: . | has_children: true (tells us that this is a parent page) | . Example . --- layout: default title: UI Components nav_order: 2 has_children: true --- . Here we’re setting up the UI Components landing page that is available at /docs/ui-components, which has children and is ordered second in the main nav. Child pages . On child pages, simply set the parent: YAML front matter to whatever the parent’s page title is and set a nav order (this number is now scoped within the section). Example . --- layout: default title: Buttons parent: UI Components nav_order: 2 --- . The Buttons page appears as a child of UI Components and appears second in the UI Components section. Auto-generating Table of Contents . By default, all pages with children will automatically append a Table of Contents which lists the child pages after the parent page’s content. To disable this auto Table of Contents, set has_toc: false in the parent page’s YAML front matter. Example . --- layout: default title: UI Components nav_order: 2 has_children: true has_toc: false --- . Children with children . Child pages can also have children (grandchildren). This is achieved by using a similar pattern on the child and grandchild pages. | Add the has_children attribute to the child | Add the parent and grand_parent attribute to the grandchild | . Example . --- layout: default title: Buttons parent: UI Components nav_order: 2 has_children: true --- . --- layout: default title: Buttons Child Page parent: Buttons grand_parent: UI Components nav_order: 1 --- . This would create the following navigation structure: . +-- .. |-- UI Components |-- .. | |-- Buttons | |-- Button Child Page | |-- .. | +-- .. ",
+    "url": "http://localhost:4000/just-the-docs/docs/navigation-structure/#pages-with-children",
+    "relUrl": "/docs/navigation-structure/#pages-with-children"
+  },"65": {
+    "doc": "Navigation Structure",
+    "title": "Auxiliary Links",
+    "content": "To add auxiliary links to your site (in the upper right on all pages), add it to the aux_links configuration option in your site’s _config.yml file. Example . # Aux links for the upper right navigation aux_links: \"Just the Docs on GitHub\": - \"//github.com/pmarsceill/just-the-docs\" . ",
+    "url": "http://localhost:4000/just-the-docs/docs/navigation-structure/#auxiliary-links",
+    "relUrl": "/docs/navigation-structure/#auxiliary-links"
+  },"66": {
+    "doc": "Navigation Structure",
+    "title": "In-page navigation with Table of Contents",
+    "content": "To generate a Table of Contents on your docs pages, you can use the {:toc} method from Kramdown, immediately after an &lt;ol&gt; in Markdown. This will automatically generate an ordered list of anchor links to various sections of the page based on headings and heading levels. There may be occasions where you’re using a heading and you don’t want it to show up in the TOC, so to skip a particular heading use the {: .no_toc } CSS class. Example . # Navigation Structure {: .no_toc } ## {: .no_toc .text-delta } 1. TOC {:toc} . This example skips the page name heading (#) from the TOC, as well as the heading for the Table of Contents itself (##) because it is redundant, followed by the table of contents itself. ",
+    "url": "http://localhost:4000/just-the-docs/docs/navigation-structure/#in-page-navigation-with-table-of-contents",
+    "relUrl": "/docs/navigation-structure/#in-page-navigation-with-table-of-contents"
+  },"67": {
+    "doc": "Responsive Modifiers",
+    "title": "Responsive modifiers",
+    "content": "Just the Docs spacing works in conjunction with a variety of modifiers that allow you to target specific screen sizes responsively. Use these in conjunction with spacing and display prefix and suffix classes. | Modifier | Screen size | . | (none) | All screens until the next modifier | . | xs | 320px (20rem) and up | . | sm | 500px (31.25rem) and up | . | md | 740px (46.25rem) and up | . | lg | 1120px (70rem) and up | . | xl | 1400px (87.5rem) and up | . ",
+    "url": "http://localhost:4000/just-the-docs/docs/utilities/responsive-modifiers/#responsive-modifiers",
+    "relUrl": "/docs/utilities/responsive-modifiers/#responsive-modifiers"
+  },"68": {
+    "doc": "Responsive Modifiers",
+    "title": "Responsive Modifiers",
+    "content": " ",
+    "url": "http://localhost:4000/just-the-docs/docs/utilities/responsive-modifiers/",
+    "relUrl": "/docs/utilities/responsive-modifiers/"
+  },"69": {
+    "doc": "Search",
+    "title": "Search",
+    "content": " ",
+    "url": "http://localhost:4000/just-the-docs/docs/search/",
+    "relUrl": "/docs/search/"
+  },"70": {
+    "doc": "Search",
+    "title": "Table of contents",
+    "content": ". | Enable search in configuration . | Search granularity | Search previews | Search tokenizer | Display URL in search results | Display search button | . | Hiding pages from search | Generate search index when used as a gem | . Just the Docs uses lunr.js to add a client-side search interface powered by a JSON index that Jekyll generates. All search results are shown in an auto-complete style interface (there is no search results page). By default, all generated HTML pages are indexed using the following data points: . | Page title | Page content | Page URL | . ",
+    "url": "http://localhost:4000/just-the-docs/docs/search/#table-of-contents",
+    "relUrl": "/docs/search/#table-of-contents"
+  },"71": {
+    "doc": "Search",
+    "title": "Enable search in configuration",
+    "content": "In your site’s _config.yml, enable search: . # Enable or disable the site search # Supports true (default) or false search_enabled: true . Search granularity . Pages are split into sections that can be searched individually. The sections are defined by the headings on the page. Each section is displayed in a separate search result. # Split pages into sections that can be searched individually # Supports 1 - 6, default: 2 search.heading_level: 2 . Search previews . A search result can contain previews that show where the search words are found in the specific section. # Maximum amount of previews per search result # Default: 3 search.previews: 3 # Maximum amount of words to display before a matched word in the preview # Default: 5 search.preview_words_before: 5 # Maximum amount of words to display after a matched word in the preview # Default: 10 search.preview_words_after: 10 . Search tokenizer . The default is for hyphens to separate tokens in search terms: gem-based is equivalent to gem based, matching either word. To allow search for hyphenated words: . # Set the search token separator # Default: /[\\s\\-/]+/ # Example: enable support for hyphenated search words search.tokenizer_separator: /[\\s/]+/ . Display URL in search results . # Display the relative url in search results # Supports true (default) or false search.rel_url: false . Display search button . The search button displays in the bottom right corner of the screen and triggers the search input when clicked. # Enable or disable the search button that appears in the bottom right corner of every page # Supports true or false (default) search.button: true . ",
+    "url": "http://localhost:4000/just-the-docs/docs/search/#enable-search-in-configuration",
+    "relUrl": "/docs/search/#enable-search-in-configuration"
+  },"72": {
+    "doc": "Search",
+    "title": "Hiding pages from search",
+    "content": "Sometimes you might have a page that you don’t want to be indexed for the search nor to show up in search results, e.g, a 404 page. To exclude a page from search, add the search_exclude: true parameter to the page’s YAML front matter: . Example . --- layout: default title: Page not found nav_exclude: true search_exclude: true --- . ",
+    "url": "http://localhost:4000/just-the-docs/docs/search/#hiding-pages-from-search",
+    "relUrl": "/docs/search/#hiding-pages-from-search"
+  },"73": {
+    "doc": "Search",
+    "title": "Generate search index when used as a gem",
+    "content": "If you use Just the Docs as a remote theme, you do not need the following steps. If you use the theme as a gem, you must initialize the search by running this rake command that comes with just-the-docs: . $ bundle exec just-the-docs rake search:init . This command creates the assets/js/zzzz-search-data.json file that Jekyll uses to create your search index. Alternatively, you can create the file manually with this content. ",
+    "url": "http://localhost:4000/just-the-docs/docs/search/#generate-search-index-when-used-as-a-gem",
+    "relUrl": "/docs/search/#generate-search-index-when-used-as-a-gem"
+  },"74": {
+    "doc": "Tables",
+    "title": "Tables",
+    "content": "Tables are responsive by default, allowing wide tables to have a horizontal scroll to access columns outside of the normal viewport. | head1 | head two | three | . | ok | good swedish fish | nice | . | out of stock | good and plenty | nice | . | ok | good oreos | hmm | . | ok | good zoute drop | yumm | . | head1 | head two | three |:-------------|:------------------|:------| ok | good swedish fish | nice | out of stock | good and plenty | nice | ok | good `oreos` | hmm | ok | good `zoute` drop | yumm | . ",
+    "url": "http://localhost:4000/just-the-docs/docs/ui-components/tables/",
+    "relUrl": "/docs/ui-components/tables/"
+  },"75": {
+    "doc": "Typography",
+    "title": "Typography Utilities",
+    "content": " ",
+    "url": "http://localhost:4000/just-the-docs/docs/utilities/typography/#typography-utilities",
+    "relUrl": "/docs/utilities/typography/#typography-utilities"
+  },"76": {
+    "doc": "Typography",
+    "title": "Table of contents",
+    "content": ". | Font size | Font weight | Line height | Text justification | . ",
+    "url": "http://localhost:4000/just-the-docs/docs/utilities/typography/#table-of-contents",
+    "relUrl": "/docs/utilities/typography/#table-of-contents"
+  },"77": {
+    "doc": "Typography",
+    "title": "Font size",
+    "content": "Use the .fs-1 - .fs-10 to set an explicit font-size. | Class | Small screen size font-size | Large screen size font-size | . | .fs-1 | 9px | 10px | . | .fs-2 | 11px | 12px | . | .fs-3 | 12px | 14px | . | .fs-4 | 14px | 16px | . | .fs-5 | 16px | 18px | . | .fs-6 | 18px | 24px | . | .fs-7 | 24px | 32px | . | .fs-8 | 32px | 38px | . | .fs-9 | 38px | 42px | . | .fs-10 | 42px | 48px | . Font size 1 . Font size 2 . Font size 3 . Font size 4 . Font size 5 . Font size 6 . Font size 7 . Font size 8 . Font size 9 . Font size 10 . In Markdown, use the `{: }` wrapper to apply custom classes: Font size 1 {: .fs-1 } Font size 2 {: .fs-2 } Font size 3 {: .fs-3 } Font size 4 {: .fs-4 } Font size 5 {: .fs-5 } Font size 6 {: .fs-6 } Font size 7 {: .fs-7 } Font size 8 {: .fs-8 } Font size 9 {: .fs-9 } Font size 10 {: .fs-10 } . ",
+    "url": "http://localhost:4000/just-the-docs/docs/utilities/typography/#font-size",
+    "relUrl": "/docs/utilities/typography/#font-size"
+  },"78": {
+    "doc": "Typography",
+    "title": "Font weight",
+    "content": "Use the .fw-300 - .fw-700 to set an explicit font-size. Font weight 300 . Font weight 400 . Font weight 500 . Font weight 700 . In Markdown, use the `{: }` wrapper to apply custom classes: Font weight 300 {: .fw-300 } Font weight 400 {: .fw-400 } Font weight 500 {: .fw-500 } Font weight 700 {: .fw-700 } . ",
+    "url": "http://localhost:4000/just-the-docs/docs/utilities/typography/#font-weight",
+    "relUrl": "/docs/utilities/typography/#font-weight"
+  },"79": {
+    "doc": "Typography",
+    "title": "Line height",
+    "content": "Use the lh- classes to explicitly apply line height to text. | Class | line-height value | Notes | . | .lh-0 | 0 |   | . | .lh-tight | 1.1 | Default for headings | . | .lh-default | 1.4 | Default for body (paragraphs) | . No Line height No Line height . Tight line height Tight line height . Default line height Default line height . In Markdown, use the `{: }` wrapper to apply custom classes: No Line height No Line height {: .lh-0 } Tight line height Tight line height {: .lh-tight } Default line height Default line height {: .fh-default } . ",
+    "url": "http://localhost:4000/just-the-docs/docs/utilities/typography/#line-height",
+    "relUrl": "/docs/utilities/typography/#line-height"
+  },"80": {
+    "doc": "Typography",
+    "title": "Text justification",
+    "content": "By default text is justified left. Use these text- classes to override settings: . | Class | What it does | . | .text-left | text-align: left | . | .text-right | text-align: right | . | .text-center | text-align: center | . ",
+    "url": "http://localhost:4000/just-the-docs/docs/utilities/typography/#text-justification",
+    "relUrl": "/docs/utilities/typography/#text-justification"
+  },"81": {
+    "doc": "Typography",
+    "title": "Typography",
+    "content": " ",
+    "url": "http://localhost:4000/just-the-docs/docs/utilities/typography/",
+    "relUrl": "/docs/utilities/typography/"
+  },"82": {
+    "doc": "Typography",
+    "title": "Typography",
+    "content": " ",
+    "url": "http://localhost:4000/just-the-docs/docs/ui-components/typography/",
+    "relUrl": "/docs/ui-components/typography/"
+  },"83": {
+    "doc": "Typography",
+    "title": "Table of contents",
+    "content": ". | Font stack | Responsive type scale | Headings | Body text | Inline elements | Typographic Utilities | . ",
+    "url": "http://localhost:4000/just-the-docs/docs/ui-components/typography/#table-of-contents",
+    "relUrl": "/docs/ui-components/typography/#table-of-contents"
+  },"84": {
+    "doc": "Typography",
+    "title": "Font stack",
+    "content": "By default, Just the Docs uses a native system font stack for sans-serif fonts: . -apple-system, BlinkMacSystemFont, \"helvetica neue\", helvetica, roboto, noto, \"segoe ui\", arial, sans-serif . ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz . For monospace type, like code snippets or the &lt;pre&gt; element, Just the Docs uses a native system font stack for monospace fonts: . \"SFMono-Regular\", Menlo, Consolas, Monospace . ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz . ",
+    "url": "http://localhost:4000/just-the-docs/docs/ui-components/typography/#font-stack",
+    "relUrl": "/docs/ui-components/typography/#font-stack"
+  },"85": {
+    "doc": "Typography",
+    "title": "Responsive type scale",
+    "content": "Just the Docs uses a responsive type scale that shifts depending on the viewport size. | Selector | Small screen size font-size | Large screen size font-size | . | h1, .text-alpha | 32px | 36px | . | h2, .text-beta | 18px | 24px | . | h3, .text-gamma | 16px | 18px | . | h4, .text-delta | 14px | 16px | . | h5, .text-epsilon | 16px | 18px | . | h6, .text-zeta | 18px | 24px | . | body | 14px | 16px | . ",
+    "url": "http://localhost:4000/just-the-docs/docs/ui-components/typography/#responsive-type-scale",
+    "relUrl": "/docs/ui-components/typography/#responsive-type-scale"
+  },"86": {
+    "doc": "Typography",
+    "title": "Headings",
+    "content": "Headings are rendered like this: . ",
+    "url": "http://localhost:4000/just-the-docs/docs/ui-components/typography/#headings",
+    "relUrl": "/docs/ui-components/typography/#headings"
+  },"87": {
+    "doc": "Typography",
+    "title": "Heading 1",
+    "content": " ",
+    "url": "http://localhost:4000/just-the-docs/docs/ui-components/typography/",
+    "relUrl": "/docs/ui-components/typography/"
+  },"88": {
+    "doc": "Typography",
+    "title": "Heading 2",
+    "content": "Heading 3 . Heading 4 . Heading 5 . Heading 6 . # Heading 1 ## Heading 2 ### Heading 3 #### Heading 4 ##### Heading 5 ###### Heading 6 . ",
+    "url": "http://localhost:4000/just-the-docs/docs/ui-components/typography/",
+    "relUrl": "/docs/ui-components/typography/"
+  },"89": {
+    "doc": "Typography",
+    "title": "Body text",
+    "content": "Default body text is rendered like this: . Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ",
+    "url": "http://localhost:4000/just-the-docs/docs/ui-components/typography/#body-text",
+    "relUrl": "/docs/ui-components/typography/#body-text"
+  },"90": {
+    "doc": "Typography",
+    "title": "Inline elements",
+    "content": "Text can be bold, italic, or strikethrough. Link to another page. Text can be **bold**, _italic_, or ~~strikethrough~~. [Link to another page](another-page). ",
+    "url": "http://localhost:4000/just-the-docs/docs/ui-components/typography/#inline-elements",
+    "relUrl": "/docs/ui-components/typography/#inline-elements"
+  },"91": {
+    "doc": "Typography",
+    "title": "Typographic Utilities",
+    "content": "There are a number of specific typographic CSS classes that allow you to override default styling for font size, font weight, line height, and capitalization. View typography utilities . ",
+    "url": "http://localhost:4000/just-the-docs/docs/ui-components/typography/#typographic-utilities",
+    "relUrl": "/docs/ui-components/typography/#typographic-utilities"
+  },"92": {
+    "doc": "UI Components",
+    "title": "UI Components",
+    "content": "To make it as easy as possible to write documentation in plain Markdown, most UI components are styled using default Markdown elements with few additional CSS classes needed. ",
+    "url": "http://localhost:4000/just-the-docs/docs/ui-components",
+    "relUrl": "/docs/ui-components"
+  },"93": {
+    "doc": "Utilities",
+    "title": "Utilities",
+    "content": "CSS utility classes come in handy when you to want to override default styles to create additional whitespace (margins/padding), correct unexpected shifts in font size or weight, add color, or hide (or show) something at a specific screen size. ",
+    "url": "http://localhost:4000/just-the-docs/docs/utilities",
+    "relUrl": "/docs/utilities"
+  }
+}
