@@ -18,16 +18,16 @@
 
 
   <link crossorigin="anonymous" media="all" integrity="sha512-M+rOrrqF1JSfReuJe+z3tZLbJ2S9Blt6dzIAQp0s5n6ps4eFL01D/bei2Qf9Qo0RLw7Dh8zVze9A1ozNHu2k2Q==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-next-33eaceaeba85d4949f45eb897becf7b5.css" />
-  
+
     <link crossorigin="anonymous" media="all" integrity="sha512-qP/wSs83gQ2Jsrm94mfqU27K5YQ4xKUtKbbl+eMuqODXJdZ/C/K5YajXR6yHDWZ7O4E0Z3FMG8OAOvIJHKvtGA==" rel="stylesheet" href="https://github.githubassets.com/assets/github-next-a8fff04acf37810d89b2b9bde267ea53.css" />
-    
-    
-    
-    
+
+
+
+
 
 
   <meta name="viewport" content="width=device-width">
-  
+
   <title>just-the-docs/configuration.md at master · pmarsceill/just-the-docs</title>
     <meta name="description" content="A modern, high customizable, responsive Jekyll theme for documention with built-in search. - pmarsceill/just-the-docs">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
@@ -48,7 +48,7 @@
 
   <meta name="github-keyboard-shortcuts" content="repository,source-code" data-pjax-transient="true" />
 
-  
+
 
   <meta name="selected-link" value="repo_source" data-pjax-transient>
 
@@ -72,7 +72,7 @@
 
 
 
-  
+
 
       <meta name="hostname" content="github.com">
     <meta name="user-login" content="shiva6162">
@@ -85,7 +85,7 @@
     <meta name="enabled-features" content="MARKETPLACE_PENDING_INSTALLATIONS,PAGE_STALE_CHECK,PRIMER_NEXT">
 
   <meta http-equiv="x-pjax-version" content="d20575307c438c43353de3782f8fe8f5">
-  
+
 
       <link href="https://github.com/pmarsceill/just-the-docs/commits/master.atom" rel="alternate" title="Recent Commits to just-the-docs:master" type="application/atom+xml">
 
@@ -113,7 +113,7 @@
   </head>
 
   <body class="logged-in env-production page-responsive page-blob">
-    
+
 
     <div class="position-relative js-header-wrapper ">
       <a href="#start-of-content" class="p-3 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
@@ -121,8 +121,8 @@
         <span class="progress-pjax-loader-bar top-0 left-0" style="width: 0%;"></span>
       </span>
 
-      
-      
+
+
 
 
 
@@ -173,9 +173,9 @@
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
             <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
-              
+
 <ul class="d-none js-jump-to-suggestions-template-container">
-  
+
 
 <li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-suggestion" role="option">
   <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
@@ -216,7 +216,7 @@
 </ul>
 
 <ul id="jump-to-results" role="listbox" class="p-0 m-0 js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container">
-  
+
 
 <li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-scoped-search d-none" role="option">
   <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
@@ -248,7 +248,7 @@
   </a>
 </li>
 
-  
+
 
 <li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-global-search d-none" role="option">
   <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
@@ -337,7 +337,7 @@
   </div>
 
   <div class="Header-item mr-0 mr-lg-3 flex-order-1 flex-lg-order-none">
-    
+
     <a aria-label="You have unread notifications" class="Header-link notification-indicator position-relative tooltipped tooltipped-sw js-socket-channel js-notification-indicator" data-hotkey="g n" data-ga-click="Header, go to notifications, icon:unread" data-channel="eyJjIjoibm90aWZpY2F0aW9uLWNoYW5nZWQ6MzIxMzMyMjMiLCJ0IjoxNTkzNDk2MzA0fQ==--08cfd11cd0edd88f1fd902b59d03efd7a0e04c1e78185aed36a5761d681d3adf" href="/notifications">
         <span class="js-indicator-modifier mail-status unread"></span>
         <svg class="octicon octicon-bell" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 16a2 2 0 001.985-1.75c.017-.137-.097-.25-.235-.25h-3.5c-.138 0-.252.113-.235.25A2 2 0 008 16z"></path><path fill-rule="evenodd" d="M8 1.5A3.5 3.5 0 004.5 5v2.947c0 .346-.102.683-.294.97l-1.703 2.556a.018.018 0 00-.003.01l.001.006c0 .002.002.004.004.006a.017.017 0 00.006.004l.007.001h10.964l.007-.001a.016.016 0 00.006-.004.016.016 0 00.004-.006l.001-.007a.017.017 0 00-.003-.01l-1.703-2.554a1.75 1.75 0 01-.294-.97V5A3.5 3.5 0 008 1.5zM3 5a5 5 0 0110 0v2.947c0 .05.015.098.042.139l1.703 2.555A1.518 1.518 0 0113.482 13H2.518a1.518 1.518 0 01-1.263-2.36l1.703-2.554A.25.25 0 003 7.947V5z"></path></svg>
@@ -353,7 +353,7 @@
     <svg class="octicon octicon-plus" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 2a.75.75 0 01.75.75v4.5h4.5a.75.75 0 010 1.5h-4.5v4.5a.75.75 0 01-1.5 0v-4.5h-4.5a.75.75 0 010-1.5h4.5v-4.5A.75.75 0 018 2z"></path></svg> <span class="dropdown-caret"></span>
   </summary>
   <details-menu class="dropdown-menu dropdown-menu-sw mt-n2">
-    
+
 <a role="menuitem" class="dropdown-item" href="/new" data-ga-click="Header, create new repository">
   New repository
 </a>
@@ -386,7 +386,7 @@
   </div>
 
   <div class="Header-item position-relative mr-0 d-none d-lg-flex">
-    
+
   <details class="details-overlay details-reset js-feature-preview-indicator-container" data-feature-preview-indicator-src="/users/shiva6162/feature_preview/indicator_check">
 
   <summary class="Header-link"
@@ -407,7 +407,7 @@
     <div role="none" class="dropdown-divider"></div>
 
       <div class="pl-3 pr-3 f6 user-status-container js-user-status-context lh-condensed" data-url="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1">
-        
+
 <div class="js-user-status-container rounded-1 px-2 py-1 mt-2 border"
   data-team-hovercards-enabled>
   <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
@@ -420,7 +420,7 @@
           </div>
         </div>
         <div class="
-          
+
            user-status-message-wrapper f6 min-width-0"
            style="line-height: 20px;" >
           <div class="css-truncate css-truncate-target width-fit text-gray-dark text-left">
@@ -601,7 +601,7 @@
       <a role="menuitem"
          class="dropdown-item"
          href="/settings/organizations"
-         
+
          data-ga-click="Header, go to organizations, text:your organizations"
          data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/pmarsceill/just-the-docs/blob/master/docs/configuration.md&quot;,&quot;target&quot;:&quot;YOUR_ORGANIZATIONS&quot;,&quot;originating_url&quot;:&quot;https://github.com/pmarsceill/just-the-docs/blob/master/docs/configuration.md&quot;,&quot;user_id&quot;:32133223}}" data-hydro-click-hmac="98332417bb89cb7c04f31780d654e9c4d421059f1ca974ecb184ad3905490220"
          >Your organizations</a>
@@ -616,7 +616,7 @@
 
 
     <div role="none" class="dropdown-divider"></div>
-      
+
 <div id="feature-enrollment-toggle" class="hide-sm hide-md feature-preview-details position-relative">
   <button
     type="button"
@@ -636,7 +636,7 @@
     <a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/pmarsceill/just-the-docs/blob/master/docs/configuration.md&quot;,&quot;target&quot;:&quot;HELP&quot;,&quot;originating_url&quot;:&quot;https://github.com/pmarsceill/just-the-docs/blob/master/docs/configuration.md&quot;,&quot;user_id&quot;:32133223}}" data-hydro-click-hmac="5b701d2648f0b5eb7f17089d25f996e192fbdbec7d1b9d34000214c9d45e8e5a" >Help</a>
     <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/pmarsceill/just-the-docs/blob/master/docs/configuration.md&quot;,&quot;target&quot;:&quot;SETTINGS&quot;,&quot;originating_url&quot;:&quot;https://github.com/pmarsceill/just-the-docs/blob/master/docs/configuration.md&quot;,&quot;user_id&quot;:32133223}}" data-hydro-click-hmac="07dc4fa99a332860bc7040802f5640c124bf17c04ec997c8bc2e1f875bff918f" >Settings</a>
     <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="pQB65mQeCz5m8yqeiRxIEf8qH6xejg1DFccFf0h0yImB1z06T1Ceu1bx6tzMvMW5dYtbKZ6quYcJXzzIhKwMYQ==" />
-      
+
       <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" data-hydro-click="{&quot;event_type&quot;:&quot;global_header.user_menu_dropdown.click&quot;,&quot;payload&quot;:{&quot;request_url&quot;:&quot;https://github.com/pmarsceill/just-the-docs/blob/master/docs/configuration.md&quot;,&quot;target&quot;:&quot;SIGN_OUT&quot;,&quot;originating_url&quot;:&quot;https://github.com/pmarsceill/just-the-docs/blob/master/docs/configuration.md&quot;,&quot;user_id&quot;:32133223}}" data-hydro-click-hmac="7d33dad829c90d6b9c3f310997b8e05fc9abe69e99325991b1362a84bf38b9ce"  role="menuitem">
         Sign out
       </button>
@@ -648,7 +648,7 @@
 
 </header>
 
-        
+
 
     </div>
 
@@ -666,7 +666,7 @@
     <button class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">
       <svg class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
     </button>
-    
+
       <div class="js-flash-template-message"></div>
 
   </div>
@@ -675,7 +675,7 @@
 </div>
 
 
-      
+
 
   <include-fragment class="js-notification-shelf-include-fragment" data-base-src="https://github.com/notifications/beta/shelf"></include-fragment>
 
@@ -690,9 +690,9 @@
   >
         <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
     <main  >
-      
 
-  
+
+
 
 
 
@@ -710,9 +710,9 @@
 
       <div class="flex-auto min-width-0 width-fit mr-3">
         <h1 class="public  d-flex flex-wrap flex-items-center break-word float-none f3">
-  
+
       <svg class="octicon octicon-repo" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg>
-  
+
   <span class="author ml-2 flex-self-stretch" itemprop="author">
     <a class="url fn" rel="author" data-hovercard-type="user" data-hovercard-url="/users/pmarsceill/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/pmarsceill">pmarsceill</a>
   </span>
@@ -720,7 +720,7 @@
   <strong itemprop="name" class="mr-2 flex-self-stretch">
     <a data-pjax="#js-repo-pjax-container" href="/pmarsceill/just-the-docs">just-the-docs</a>
   </strong>
-  
+
 </h1>
 
 
@@ -860,7 +860,7 @@
       </button>
       <h1 class="Box-title">Fork just-the-docs</h1>
     </div>
-      
+
               <div class="text-center overflow-auto">
                 <include-fragment>
                   <div class="octocat-spinner my-5" aria-label="Loading..."></div>
@@ -880,7 +880,7 @@
 </ul>
 
     </div>
-    
+
 <nav class="UnderlineNav js-repo-nav js-sidenav-container-pjax js-responsive-underlinenav overflow-hidden px-3 px-md-4 px-lg-5 bg-gray-light" aria-label="Repository" data-pjax="#js-repo-pjax-container">
   <ul class="UnderlineNav-body list-style-none ">
           <li class="d-flex">
@@ -888,7 +888,7 @@
               <svg height="16" class="octicon octicon-code UnderlineNav-octicon d-none d-sm-inline" class_names="UnderlineNav-octicon" display="none inline" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path></svg>
 
             <span data-content="Code">Code</span>
-              
+
 </a>      </li>
       <li class="d-flex">
         <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="issues-tab" data-hotkey="g i" data-ga-click="Repository, Navigation click, Issues tab" data-selected-links="repo_issues repo_labels repo_milestones /pmarsceill/just-the-docs/issues" href="/pmarsceill/just-the-docs/issues">
@@ -913,14 +913,14 @@
               <svg height="16" class="octicon octicon-comment-discussion UnderlineNav-octicon d-none d-sm-inline" class_names="UnderlineNav-octicon" display="none inline" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 2.75a.25.25 0 01.25-.25h8.5a.25.25 0 01.25.25v5.5a.25.25 0 01-.25.25h-3.5a.75.75 0 00-.53.22L3.5 11.44V9.25a.75.75 0 00-.75-.75h-1a.25.25 0 01-.25-.25v-5.5zM1.75 1A1.75 1.75 0 000 2.75v5.5C0 9.216.784 10 1.75 10H2v1.543a1.457 1.457 0 002.487 1.03L7.061 10h3.189A1.75 1.75 0 0012 8.25v-5.5A1.75 1.75 0 0010.25 1h-8.5zM14.5 4.75a.25.25 0 00-.25-.25h-.5a.75.75 0 110-1.5h.5c.966 0 1.75.784 1.75 1.75v5.5A1.75 1.75 0 0114.25 12H14v1.543a1.457 1.457 0 01-2.487 1.03L9.22 12.28a.75.75 0 111.06-1.06l2.22 2.22v-2.19a.75.75 0 01.75-.75h1a.25.25 0 00.25-.25v-5.5z"></path></svg>
 
             <span data-content="Discussions">Discussions</span>
-              
+
 </a>      </li>
       <li class="d-flex">
         <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="actions-tab" data-hotkey="g w" data-ga-click="Repository, Navigation click, Actions tab" data-selected-links="repo_actions /pmarsceill/just-the-docs/actions" href="/pmarsceill/just-the-docs/actions">
               <svg height="16" class="octicon octicon-play UnderlineNav-octicon d-none d-sm-inline" class_names="UnderlineNav-octicon" display="none inline" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zM6.379 5.227A.25.25 0 006 5.442v5.117a.25.25 0 00.379.214l4.264-2.559a.25.25 0 000-.428L6.379 5.227z"></path></svg>
 
             <span data-content="Actions">Actions</span>
-              
+
 </a>      </li>
       <li class="d-flex">
         <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="projects-tab" data-hotkey="g b" data-ga-click="Repository, Navigation click, Projects tab" data-selected-links="repo_projects new_repo_project repo_project /pmarsceill/just-the-docs/projects" href="/pmarsceill/just-the-docs/projects">
@@ -945,7 +945,7 @@
               <svg height="16" class="octicon octicon-graph UnderlineNav-octicon d-none d-sm-inline" class_names="UnderlineNav-octicon" display="none inline" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 1.75a.75.75 0 00-1.5 0v12.5c0 .414.336.75.75.75h14.5a.75.75 0 000-1.5H1.5V1.75zm14.28 2.53a.75.75 0 00-1.06-1.06L10 7.94 7.53 5.47a.75.75 0 00-1.06 0L3.22 8.72a.75.75 0 001.06 1.06L7 7.06l2.47 2.47a.75.75 0 001.06 0l5.25-5.25z"></path></svg>
 
             <span data-content="Insights">Insights</span>
-              
+
 </a>      </li>
 
 </ul>
@@ -959,7 +959,7 @@
 
 </summary>
             <details-menu class="dropdown-menu dropdown-menu-sw " role="menu">
-  
+
             <ul>
                 <li data-menu-item="code-tab" hidden>
                   <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /pmarsceill/just-the-docs" href="/pmarsceill/just-the-docs">
@@ -1007,19 +1007,19 @@
 <div class="container-xl clearfix new-discussion-timeline  px-3 px-md-4 px-lg-5">
   <div class="repository-content ">
 
-    
-    
 
-  
+
+
+
 
 
     <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/pmarsceill/just-the-docs/blob/972da61cf91fb1769c35aeca190b1c7d9057e70b/docs/configuration.md">Permalink</a>
 
     <!-- blob contrib key: blob_contributors:v22:3bbde1ced640feee85128b3857ead5ce -->
-    
+
 
     <div class="d-flex flex-items-center flex-shrink-0 pb-3 flex-wrap flex-justify-between flex-md-justify-start">
-      
+
 <details class="details-reset details-overlay mr-0 mb-0 " id="branch-select-menu">
   <summary class="btn css-truncate"
            data-hotkey="w"
@@ -1086,7 +1086,7 @@
 
 
     <div class="Box d-flex flex-column flex-shrink-0 mb-3">
-      
+
   <div class="Box-header Box-header--blue Details js-details-container">
         <div class="d-flex flex-items-center">
           <span class="flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1">
@@ -1130,7 +1130,7 @@
           <svg height="16" class="octicon octicon-people text-gray" text="gray" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M5.5 3.5a2 2 0 100 4 2 2 0 000-4zM2 5.5a3.5 3.5 0 115.898 2.549 5.507 5.507 0 013.034 4.084.75.75 0 11-1.482.235 4.001 4.001 0 00-7.9 0 .75.75 0 01-1.482-.236A5.507 5.507 0 013.102 8.05 3.49 3.49 0 012 5.5zM11 4a.75.75 0 100 1.5 1.5 1.5 0 01.666 2.844.75.75 0 00-.416.672v.352a.75.75 0 00.574.73c1.2.289 2.162 1.2 2.522 2.372a.75.75 0 101.434-.44 5.01 5.01 0 00-2.56-3.012A3 3 0 0011 4z"></path></svg>
 
           <strong>8</strong>
-          
+
           contributors
       </summary>
       <details-dialog
@@ -1150,21 +1150,21 @@
     </details>
       <span class="">
     <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/pmarsceill/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/pmarsceill/just-the-docs/commits/master/docs/configuration.md?author=pmarsceill">
-      <img class="avatar mr-2 avatar-user" src="https://avatars0.githubusercontent.com/u/896475?s=48&amp;v=4" width="24" height="24" alt="@pmarsceill" /> 
+      <img class="avatar mr-2 avatar-user" src="https://avatars0.githubusercontent.com/u/896475?s=48&amp;v=4" width="24" height="24" alt="@pmarsceill" />
 </a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/SgtSilvio/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/pmarsceill/just-the-docs/commits/master/docs/configuration.md?author=SgtSilvio">
-      <img class="avatar mr-2 avatar-user" src="https://avatars2.githubusercontent.com/u/28134127?s=48&amp;v=4" width="24" height="24" alt="@SgtSilvio" /> 
+      <img class="avatar mr-2 avatar-user" src="https://avatars2.githubusercontent.com/u/28134127?s=48&amp;v=4" width="24" height="24" alt="@SgtSilvio" />
 </a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/malsf21/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/pmarsceill/just-the-docs/commits/master/docs/configuration.md?author=malsf21">
-      <img class="avatar mr-2 avatar-user" src="https://avatars2.githubusercontent.com/u/14893287?s=48&amp;v=4" width="24" height="24" alt="@malsf21" /> 
+      <img class="avatar mr-2 avatar-user" src="https://avatars2.githubusercontent.com/u/14893287?s=48&amp;v=4" width="24" height="24" alt="@malsf21" />
 </a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/EricFromCanada/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/pmarsceill/just-the-docs/commits/master/docs/configuration.md?author=EricFromCanada">
-      <img class="avatar mr-2 avatar-user" src="https://avatars1.githubusercontent.com/u/3324775?s=48&amp;v=4" width="24" height="24" alt="@EricFromCanada" /> 
+      <img class="avatar mr-2 avatar-user" src="https://avatars1.githubusercontent.com/u/3324775?s=48&amp;v=4" width="24" height="24" alt="@EricFromCanada" />
 </a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/r-brown/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/pmarsceill/just-the-docs/commits/master/docs/configuration.md?author=r-brown">
-      <img class="avatar mr-2 avatar-user" src="https://avatars3.githubusercontent.com/u/1361258?s=48&amp;v=4" width="24" height="24" alt="@r-brown" /> 
+      <img class="avatar mr-2 avatar-user" src="https://avatars3.githubusercontent.com/u/1361258?s=48&amp;v=4" width="24" height="24" alt="@r-brown" />
 </a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/pdmosses/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/pmarsceill/just-the-docs/commits/master/docs/configuration.md?author=pdmosses">
-      <img class="avatar mr-2 avatar-user" src="https://avatars1.githubusercontent.com/u/18308236?s=48&amp;v=4" width="24" height="24" alt="@pdmosses" /> 
+      <img class="avatar mr-2 avatar-user" src="https://avatars1.githubusercontent.com/u/18308236?s=48&amp;v=4" width="24" height="24" alt="@pdmosses" />
 </a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/jacobherrington/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/pmarsceill/just-the-docs/commits/master/docs/configuration.md?author=jacobherrington">
-      <img class="avatar mr-2 avatar-user" src="https://avatars1.githubusercontent.com/u/11466782?s=48&amp;v=4" width="24" height="24" alt="@jacobherrington" /> 
+      <img class="avatar mr-2 avatar-user" src="https://avatars1.githubusercontent.com/u/11466782?s=48&amp;v=4" width="24" height="24" alt="@jacobherrington" />
 </a>    <a class="avatar-link" data-hovercard-type="user" data-hovercard-url="/users/folbert/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/pmarsceill/just-the-docs/commits/master/docs/configuration.md?author=folbert">
-      <img class="avatar mr-2 avatar-user" src="https://avatars1.githubusercontent.com/u/214164?s=48&amp;v=4" width="24" height="24" alt="@folbert" /> 
+      <img class="avatar mr-2 avatar-user" src="https://avatars1.githubusercontent.com/u/214164?s=48&amp;v=4" width="24" height="24" alt="@folbert" />
 </a>
 </span>
 
@@ -1178,7 +1178,7 @@
 
     <div class="Box mt-3 position-relative
       ">
-      
+
 <div class="Box-header py-2 d-flex flex-column flex-shrink-0 flex-md-row flex-md-items-center">
   <div class="text-mono f6 flex-auto pr-3 flex-order-2 flex-md-order-1 mt-2 mt-md-0">
 
@@ -1221,7 +1221,7 @@
 
 
 
-      
+
   <div id="readme" class="Box-body readme blob js-code-block-container p-5 p-xl-6">
     <article class="markdown-body entry-content container-lg" itemprop="text"><table data-table-type="yaml-metadata">
   <thead>
@@ -1336,7 +1336,6 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
   }
 });
 &lt;/script&gt;
-<p>See [Customization]({{ site.baseurl }}{% link docs/customization.md %}) for more information.</p>
 <h2><a id="user-content-google-analytics" class="anchor" aria-hidden="true" href="#google-analytics"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Google Analytics</h2>
 <div class="highlight highlight-source-yaml"><pre><span class="pl-c"><span class="pl-c">#</span> Google Analytics Tracking (optional)</span>
 <span class="pl-c"><span class="pl-c">#</span> e.g, UA-1234567-89</span>
@@ -1347,7 +1346,7 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 
     </div>
 
-  
+
 
 
   <details class="details-reset details-overlay details-overlay-dark" id="jumpto-line-details-dialog">
@@ -1381,11 +1380,11 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 
     </main>
   </div>
-  
+
 
   </div>
 
-        
+
 <div class="footer container-xl width-full p-responsive" role="contentinfo">
   <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
@@ -1430,14 +1429,14 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
     <script crossorigin="anonymous" integrity="sha512-47cvnR4cfmRA+p1TUeCLY+nCEqD7tni9XPMTW5kLy2C4SUhMCAw0NWiKqvZEM0iZRBw+8u8DgeD30fC56eV02w==" type="application/javascript" src="https://github.githubassets.com/assets/environment-bootstrap-e3b72f9d.js"></script>
     <script crossorigin="anonymous" async="async" integrity="sha512-XWz5HaaTTrTqPbip/poDC93vFrDNSzLklq8U2NDvVKkqFnGnjKWXc4oqIroQ7niVJGouPSNavRlVOj9sG46GDQ==" type="application/javascript" src="https://github.githubassets.com/assets/vendor-5d6cf91d.js"></script>
     <script crossorigin="anonymous" async="async" integrity="sha512-cFdsPtFdG3JFLJrPCw2IFgIdnECd3F1B+KWzwEih5VSTbixIO/Ymjon6nfNo/EQihv3x6UYYGbMet6XocJs60Q==" type="application/javascript" src="https://github.githubassets.com/assets/frameworks-70576c3e.js"></script>
-    
+
     <script crossorigin="anonymous" async="async" integrity="sha512-Pd5xPTv0AbHqO0tW3FDU088cgHoiy0AFhzOH+zZd2+aOMEpNw8Gie39RZ02m2IThJBhwKhQx2JIHQnZNMwq2qg==" type="application/javascript" src="https://github.githubassets.com/assets/github-bootstrap-3dde713d.js"></script>
-    
+
       <script crossorigin="anonymous" async="async" integrity="sha512-4GcSWGoe36+BoWho4gtJcByZe8j43w+lt2/PDe3rmBxRVSgD29YipDwuIywe8fvOd2b2CszBqaPGxSznUtE3Xg==" type="application/javascript" data-module-id="./drag-drop.js" data-src="https://github.githubassets.com/assets/drag-drop-e0671258.js"></script>
       <script crossorigin="anonymous" async="async" integrity="sha512-2k8dDHk0yt52uKvOvgc9cwOXOeJhxBfVP5kPS2BrCdytDmtEIJ2yone26vFENAyk1a2aFQ7KDgEevRQafuAf8A==" type="application/javascript" data-module-id="./gist-vendor.js" data-src="https://github.githubassets.com/assets/gist-vendor-da4f1d0c.js"></script>
       <script crossorigin="anonymous" async="async" integrity="sha512-iv+4yAluOjiG50ZypUBIWIUCRDo6JEBf2twvmd5AelxgPQJO/XC1oNMGTMdDfKt30p7G7fHEOTZ2utHWDJ9PPQ==" type="application/javascript" data-module-id="./randomColor.js" data-src="https://github.githubassets.com/assets/randomColor-8affb8c8.js"></script>
-    
-    
+
+
   <div class="js-stale-session-flash flash flash-warn flash-banner" hidden
     >
     <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path></svg>
@@ -1464,4 +1463,3 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 
   </body>
 </html>
-

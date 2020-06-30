@@ -86,7 +86,7 @@ heading_anchors: true
 ## Footer content
 
 ```yaml
-# Footer content 
+# Footer content
 # appears at the bottom of every page's main content
 footer_content: "Copyright &copy; 2017-2019 Patrick Marsceill. Distributed by an <a href=\"https://github.com/pmarsceill/just-the-docs/tree/master/LICENSE.txt\">MIT license.</a>"
 
@@ -130,7 +130,6 @@ jtd.addEvent(toggleDarkMode, 'click', function(){
 });
 </script>
 
-See [Customization]({{ site.baseurl }}{% link docs/customization.md %}) for more information.
 
 ## Google Analytics
 

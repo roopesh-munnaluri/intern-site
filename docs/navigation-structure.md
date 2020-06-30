@@ -31,11 +31,6 @@ To specify a page order, use the `nav_order` parameter in your pages' YAML front
 {: .no_toc }
 
 ```yaml
----
-layout: default
-title: Customization
-nav_order: 4
----
 ```
 
 The specified `nav_order` parameters on a site should be all integers or all strings.
