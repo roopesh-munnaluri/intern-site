@@ -2,7 +2,7 @@
 layout: default
 title: Course Requirements
 nav_order: 2
-permalink: /docs/course_requirements/
+permalink: /
 ---
 ## Internship Work Hours & Placement
 
