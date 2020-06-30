@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Customization
+title: Requirements
 nav_order: 6
 ---
 
